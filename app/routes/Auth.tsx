@@ -12,6 +12,7 @@ const Auth = () => {
     const location = useLocation();
     const next = location.search.split('next=')[1];
     const navigate = useNavigate();
+    //this is the usenavigate
 
     useEffect(() => {
         if(auth.isAuthenticated) navigate(next);
@@ -40,6 +41,7 @@ const Auth = () => {
                                     <button className="auth-button" onClick={auth.signIn}>
                                         <p>Log In</p>
                                     </button>
+                                    //this is the button
                                 )}
                             </>
                         )}
