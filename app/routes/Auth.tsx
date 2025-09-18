@@ -29,7 +29,7 @@ const Auth = () => {
                     <div>
                         {isLoading ? (
                             <button className="auth-button animate-pulse">
-                                <p>Signing you in...</p>
+                                <p>Signing you in....</p>
                             </button>
                         ) : (
                             <>
